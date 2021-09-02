@@ -19,7 +19,7 @@ footer{
    font-size: 13px;
    line-height: 20px;
 }
-.row{
+.rowf{
     width: 85%;
     margin: auto;
     display: flex;
@@ -27,37 +27,37 @@ footer{
     align-items: flex-start;
     justify-content: space-between;
 }
-.col{
+.colf{
     flex-basis: 25%;
     padding: 10px;
 }
-.col:nth-child(2), .col:nth-child(3){
+.colf:nth-child(2), .colf:nth-child(3){
     flex-basis: 15%;
 }
-.logo{
+.logof{
     width: 80px;
     margin-bottom: 30px;
 }
-.col h3{
+.colf h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
-.email-id{
+.email-idf{
     width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 }
-ul li{
+.ulf li{
     list-style: none;
     margin-bottom: 12px;
 }
-ul li a{
+.ulf li a{
     text-decoration: none;
     color: #fff;
 }
 
-form{
+.frmf{
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -66,24 +66,24 @@ form{
     margin-bottom: 50px;
 }
 
-form input{
+.frmf input{
     width: 100%;
     background: transparent;
     color: rgb(236, 234, 234);
     border: 0;
     outline: none;
 }
-form button{
+.frmf button{
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
 }
-form button .fas{
+.frmf button .fas{
     font-size: 16px;
     color: #ccc;
 }
-.social-icons .fab{
+.social-iconsf .fab{
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -91,16 +91,16 @@ form button .fas{
     text-align: center;
     margin-right: 6px;
 }
-hr{
+.hrf{
     width: 90%;
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 20px auto;
 }
-.copyright{
+.copyrightf{
     text-align: center;
 }
-.underline{
+.underlinef{
     width: 100%;
     height: 5px;
     background: #767676;
@@ -110,7 +110,7 @@ hr{
     left: 0;
     overflow: hidden;
 }
-.underline span{
+.underlinef span{
     width: 15px;
     height: 100%;
     background: #fff;
@@ -133,13 +133,13 @@ hr{
     footer{
         bottom: unset;
     }
-    .col{
+    .colf{
         flex-basis: 100%;
     }
-    .col:nth-child(2), .col:nth-child(3){
+    .colf:nth-child(2), .colf:nth-child(3){
         flex-basis: 100%;
     }
-    .copyright{
+    .copyrightf{
         text-align: center;
         font-size: 1.5vh;
     }
